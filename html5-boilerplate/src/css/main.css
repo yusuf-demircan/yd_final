@@ -111,7 +111,7 @@ body {
 
 ul {
 	list-style-type: none;
-	overflow: hidden;
+	overflow: hidden;	
 	margin: 0;
 	padding: 0;
 	background-color: #8abfff; }
@@ -132,12 +132,21 @@ li a:hover {
 	background-color: #8abfff;
 	padding: 0.5em; }
 #footer {
-	height: 53.50px; }
+	height: 53.50px;
+	color: #455f7f;}
 
 #feature {
 	height: 510px;
 	margin-bottom:1em;
 	background-color: #8abfff; }
+
+#featureorganic {
+	height: 960px;
+	margin-bottom: 1em;
+	background-color: #8abfff;
+	text-align: left;
+	color: #455f7f; }
+
 #column1 {
 	height: 140.07px;
 	margin-bottom: 1em;
@@ -146,7 +155,9 @@ li a:hover {
 
 h1 { font-size: 100%; }
 
-
+p.serif {
+    font-family: "Times New Roman", Times, serif;
+    }
 
 
 
